@@ -83,7 +83,7 @@
 		DA52062825F3242400D7D0A7 /* CheckInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA52062725F3242400D7D0A7 /* CheckInViewController.swift */; };
 		DA52062A25F32D1A00D7D0A7 /* SF12ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA52062925F32D1900D7D0A7 /* SF12ViewController.swift */; };
 		DA52064C25F45DAE00D7D0A7 /* DaysSinceSurgeryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA52064B25F45DAE00D7D0A7 /* DaysSinceSurgeryView.swift */; };
-		DAEFF13F25EF428500BC36B1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DAEFF13E25EF428500BC36B1 /* GoogleService-Info.plist */; };
+		DA9C963225F85B3A00AE6CA4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA9C963125F85B3A00AE6CA4 /* GoogleService-Info.plist */; };
 		E235077724F7082700CC1899 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E235077624F7082700CC1899 /* SceneDelegate.swift */; };
 		E29143FC24E74AD100EE97B2 /* LaunchUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29143FB24E74AD100EE97B2 /* LaunchUIView.swift */; };
 		E2CB7FE524F730C80039C24A /* CKConfiguration-old.plist in Resources */ = {isa = PBXBuildFile; fileRef = E2CB7FE424F730C80039C24A /* CKConfiguration-old.plist */; };
@@ -190,7 +190,7 @@
 		DA52062725F3242400D7D0A7 /* CheckInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckInViewController.swift; sourceTree = "<group>"; };
 		DA52062925F32D1900D7D0A7 /* SF12ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SF12ViewController.swift; sourceTree = "<group>"; };
 		DA52064B25F45DAE00D7D0A7 /* DaysSinceSurgeryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaysSinceSurgeryView.swift; sourceTree = "<group>"; };
-		DAEFF13E25EF428500BC36B1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DA9C963125F85B3A00AE6CA4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		E235077624F7082700CC1899 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		E29143FB24E74AD100EE97B2 /* LaunchUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchUIView.swift; sourceTree = "<group>"; };
 		E2CB7FE424F730C80039C24A /* CKConfiguration-old.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "CKConfiguration-old.plist"; sourceTree = "<group>"; };
@@ -312,8 +312,8 @@
 				8E0A4384244A4A0400656518 /* Constants.swift */,
 				8E0A4378244A4A0300656518 /* CardinalKit_Example-Bridging-Header.h */,
 				8E0A43C9244A4C6500656518 /* Info.plist */,
+				DA9C963125F85B3A00AE6CA4 /* GoogleService-Info.plist */,
 				E2F1FD7724D62064006C39DF /* CKConfiguration.plist */,
-				DAEFF13E25EF428500BC36B1 /* GoogleService-Info.plist */,
 				E2CB7FE424F730C80039C24A /* CKConfiguration-old.plist */,
 			);
 			path = "Supporting Files";
@@ -601,8 +601,8 @@
 				E2F1FD7824D62064006C39DF /* CKConfiguration.plist in Resources */,
 				8E0A43C1244A4A0400656518 /* LoginCustomWaitStepView.xib in Resources */,
 				E2CB7FE524F730C80039C24A /* CKConfiguration-old.plist in Resources */,
+				DA9C963225F85B3A00AE6CA4 /* GoogleService-Info.plist in Resources */,
 				44F5403825D464F100B15111 /* ProfileData.json in Resources */,
-				DAEFF13F25EF428500BC36B1 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -910,7 +910,7 @@
 				);
 				MARKETING_VERSION = 1.3.0;
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = edu.stanford.cs342.342a2ksj;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.stanford.cs342.kidney.release;
 				PRODUCT_NAME = "CardinalKit Example";
 				SWIFT_OBJC_BRIDGING_HEADER = "CardinalKit/Supporting Files/CardinalKit_Example-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -936,7 +936,7 @@
 				);
 				MARKETING_VERSION = 1.3.0;
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = edu.stanford.cs342.342a2ksj;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.stanford.cs342.kidney.release;
 				PRODUCT_NAME = "CardinalKit Example";
 				SWIFT_OBJC_BRIDGING_HEADER = "CardinalKit/Supporting Files/CardinalKit_Example-Bridging-Header.h";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
